@@ -111,7 +111,7 @@ a:active {
 
 /* Hide elements with the class visually-hidden */
 .visually-hidden {
-    display: 0;
+    display: none;
 }
 
 /* Set foreground color to class card-category */
@@ -120,7 +120,7 @@ a:active {
 }
 
 .card-services .card-title{
-    margin: none;
+    margin: 0;
 }
 
 .card-services a{
