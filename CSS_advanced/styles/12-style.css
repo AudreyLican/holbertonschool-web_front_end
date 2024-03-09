@@ -48,7 +48,7 @@ body{
 
 /* Set foreground color for all anchor elements */
 a{
-    color: #161616;
+    color: var(--text-color);
     text-decoration: none;
 }
 
