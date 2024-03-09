@@ -9,7 +9,7 @@
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --color-dark-grey: #353535;
-    --text-color: var(--color-white);
+    --text-color: var(--color-black);
 
     /* Defining custom font family */
     --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -39,7 +39,7 @@
 
     /* Custom title margin and color */
     --section-title-margin: 0;
-    --section-title-color: var(--color-white);
+    --section-title-color: var(--color-black);
 
     /* Custom Padding */
     --section-padding: 5rem 0;
@@ -224,6 +224,8 @@ ul.row {
 }
 
 [data-section-theme="dark"]{
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
     background-color: var(--color-black);
 }
 /* -------------- Footer --------------- */
