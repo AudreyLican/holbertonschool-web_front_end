@@ -44,9 +44,6 @@ body{
 /* Set foreground color for all anchor elements */
 a{
     color: #161616;
-}
-
-a:link{
     text-decoration: none;
 }
 
