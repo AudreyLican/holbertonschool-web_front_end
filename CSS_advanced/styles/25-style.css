@@ -70,7 +70,7 @@
     --button-font-size: var(--font-size-large);
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
-    --button-hover-background: (--color-primary);
+    --button-hover-background: var(--color-primary);
 }
 
 /* universal box sizing rule */
