@@ -252,6 +252,7 @@ ul.row {
     display: block;
 }
 
+/* Fill color determined the svg children with selector > */
 .social-link > svg{
     fill: var(--text-color);
 }
