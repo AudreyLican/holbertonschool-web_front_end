@@ -111,7 +111,7 @@ a:active {
 
 /* Hide elements with the class visually-hidden */
 .visually-hidden {
-    display: none;
+    display: 0;
 }
 
 /* Set foreground color to class card-category */
