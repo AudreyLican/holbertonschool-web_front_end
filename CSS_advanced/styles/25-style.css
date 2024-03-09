@@ -134,8 +134,6 @@ a:active {
     background-color: var(--button-hover-background);
 }
 
-/* ------------------  ----------------- */
-
 /* Hide elements with the class visually-hidden */
 .visually-hidden {
     display: none;
