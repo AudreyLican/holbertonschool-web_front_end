@@ -35,7 +35,8 @@
     --section-title-color: color-black;
 }
 
-* {
+/* universal box sizing rule */
+*, *:before, *:after {
     box-sizing: border-box;
 }
 
