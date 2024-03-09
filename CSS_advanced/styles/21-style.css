@@ -64,23 +64,29 @@
 
 /* universal box sizing rule */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
+/* ------------------ General ----------------- */
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
-/* Set foreground color for body */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     line-height: var(--line-height-base);
+}
+
+.container {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Set anchor elements hyperlink target: visited, hover and active*/
@@ -148,12 +154,6 @@ a:active {
     margin: var(--section-tagline-margin);
 }
 
-.container {
-    width: 960px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 h1,
 h2,
 h3,
@@ -189,7 +189,7 @@ h6 {
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-link {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
 
