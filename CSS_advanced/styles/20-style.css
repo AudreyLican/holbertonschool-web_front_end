@@ -215,7 +215,7 @@ ul.row {
 }
 
 .row::after {
-    content: none;
+    content: "";
     display: table;
     /* do not allow any floating elements on either side */
     clear: both;
