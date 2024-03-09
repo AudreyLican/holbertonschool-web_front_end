@@ -146,7 +146,7 @@ a:active {
     color: var(--color-primary);
 }
 
-.card-services.card-title{
+.card-services .card-title{
     margin: none;
 }
 
