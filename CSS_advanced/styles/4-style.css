@@ -1,0 +1,47 @@
+/* Custom elements */
+:root{
+    /* Defining custom color */
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+    /* Defining custom font family */
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Set foreground color for body */
+body{
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+}
+
+/* Set foreground color for all anchor elements */
+a{
+    color: #161616;
+}
+
+/* Hide elements with the class visually-hidden */
+.visually-hidden{
+    display: none;
+}
+
+/* Set foreground color to class card-category */
+.card-category{
+    color: var(--color-primary);
+}
+
+/* Set foreground color to class section-tagline */
+.section-tagline{
+    color: var(--color-primary);
+}
+
+h6{
+    font-family: var(--font-family-title);
+}
