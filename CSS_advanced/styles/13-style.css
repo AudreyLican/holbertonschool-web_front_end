@@ -46,21 +46,21 @@ body{
     line-height: var(--line-height-base);
 }
 
-/* Set anchor elements link, visited, hover and active*/
-a:link{
+/* Set anchor elements hyperlink target: visited, hover and active*/
+a[href]{
     color: #161616;
     text-decoration: none;
 }
 
-a:visited{
+a[href]:visited{
     font-style: italic;
 }
 
-a:hover{
+a[href]:hover{
     text-decoration: underline;
 }
 /*when user is cliking on the link */
-a:active{
+a[href]:active{
     background-color: var(--color-light-grey);
 } 
 
